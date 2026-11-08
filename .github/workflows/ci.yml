@@ -1,1 +1,19 @@
-)^²Úâ	bíbšš+µ¶¬{®)jØe‰ºkŠ{[jÇºá¾¸zw(uêZ¶blö­†­†æÿÂŠä~Z0³÷"Êiky§[Ê×¬uç(uä²Ö±ºè®)ïjX³)ík
+name: ValidaciÃ³n del portal
+on:
+  pull_request:
+  push:
+    branches: [feat/portal-fec-v1]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check

@@ -1,1 +1,4 @@
-N¶œy¶œ’j,¶·œz{\jYejËEŠW¬¶¸§‚X§{X§š‡n•ãZ™á+®Šçjg¬­È¬ž‹]yø§y
+---
+import Layout from '../../layouts/Layout.astro';import PageIntro from '../../components/PageIntro.astro';import {degrees} from '../../data/portal';
+---
+<Layout title="Pregrado"><PageIntro title="Pregrado" intro="Explora las seis licenciaturas y consulta los documentos curriculares disponibles."/><section class="section container"><div class="degree-grid">{degrees.map(d=><a class="degree" href={`/pregrado/${d.slug}/`}><h2>{d.name}</h2><p>Licenciatura</p><span>Consultar malla curricular â†’</span></a>)}</div><p class="note">Los documentos se conservan en su formato original. Su publicaciÃ³n no certifica su vigencia curricular.</p></section></Layout>

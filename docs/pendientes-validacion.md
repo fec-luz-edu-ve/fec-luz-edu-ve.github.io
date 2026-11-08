@@ -1,1 +1,17 @@
-N∂úy∂úíj,∂∑úz{\jYejÀEäW¨∂∏ßÇXß{Xßöánï„Zô·+ÆäÁjgù°À"≤z-uÁ‚ùÁ
+# Pendientes institucionales
+
+- Confirmar autoridades y condici√≥n de nombramiento del Dr. Jos√© Ortega antes de publicarlo.
+- Validar historia, misi√≥n, visi√≥n, dependencias, reglamentos y organizaci√≥n acad√©mica.
+- Confirmar versiones curriculares de las seis mallas, especialmente Matem√°tica (recurso con referencia 02-1995) y Antropolog√≠a.
+- Maestr√≠a TIC figura en el aviso II-2026, pero no entre destinos de DEPG-001. La extracci√≥n de DEPG-001 tambi√©n muestra I-2025 e II-2026: revisar r√≥tulo del formulario.
+- Obtener instructivo SD-DEPG-001 y calendario de Pregrado.
+- Confirmar operatividad de secdoc.fecs@fec.luz.edu.ve antes de publicarlo como canal vigente. Se mantiene solo aqu√≠.
+- Confirmar directorio de coordinaciones. No se publicaron correos personales de docentes encontrados en el aviso.
+- Validar aranceles y datos de pago para cada per√≠odo: se remite al aviso fechado y a Secretar√≠a, sin promoverlos como vigentes en el futuro.
+- Validar funcionamiento de los canales de Postgrado y admisi√≥n TIC ya documentados para difusi√≥n.
+- Confirmar direcci√≥n detallada, horarios, l√≠neas, grupos, laboratorios, proyectos y eventos actuales.
+- Confirmar actividad actual de Enl@ce y las direcciones particulares de los portales editoriales.
+- Confirmar disponibilidad del portal de Computaci√≥n antes de sustituir el enlace a su organizaci√≥n.
+- Incorporar noticias reales con fuente y fecha verificables; no hay noticias ficticias.
+- Revisar el patr√≥n cuadriculado del escudo suministrado: no se modifica el emblema original.
+- Autorizar merge y activaci√≥n de Pages en revisi√≥n posterior. No configurar www.fec.luz.edu.ve.

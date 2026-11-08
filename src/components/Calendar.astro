@@ -1,1 +1,9 @@
-N∂úy∂úíj,∂∑úz{\jYejÀEäW¨∂∏ßÇXß{Xßöánï„Zô·+ÆäÁjg¨≠»¨ûã]y¯ßy
+---
+import {dates} from '../data/portal';
+const {upcoming=false}=Astro.props;
+const today=new Date().toISOString().slice(0,10);
+const items=dates.filter(d=>!upcoming||(d.end??d.date)>=today);
+const format=(date:string)=>new Intl.DateTimeFormat('es-VE',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(date+'T12:00:00Z'));
+---
+<p class="eyebrow">POSTGRADO ¬∑ PER√çODO II-2026</p><div class="calendar">{items.map(d=><div class="date-row"><time datetime={d.date}>{format(d.date)}{d.end&&` al ${format(d.end)}`}</time><div><strong>{d.label}</strong>{d.time&&<span>{d.time}</span>}</div></div>)}</div>
+<p class="note">Fuente: aviso de inscripciones II-2026. Consulte con Postgrado cualquier actualizaci√≥n. No se dispone de fechas verificadas de Pregrado.</p>

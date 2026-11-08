@@ -1,1 +1,11 @@
-N∂úy∂úíj,∂∑úz{\jYejÀEäW¨∂∏ßÇXß{Xßöánï„Zô·+ÆäÁjgù°À"≤z-uÁ‚ùÁ
+# Actualizaci√≥n de contenidos
+
+1. Registrar fuente institucional, responsable de verificaci√≥n y fecha.
+2. Editar `src/data/portal.ts` para programas, documentos, contactos o agenda; fechas ISO YYYY-MM-DD y per√≠odo expl√≠cito. Mantener Pregrado separado de Postgrado.
+3. Para noticias usar `src/content/noticias.json`: objetos con `slug`, `title`, `date`, `summary`, `category`, `source`, `body`; opcionales `image` e `imageAlt`. Categor√≠as: Acad√©mica, Investigaci√≥n, Extensi√≥n, Secretar√≠a Docente, Eventos y Comunicados. Fechas reales; nunca estimar la publicaci√≥n.
+4. Guardar originales en `public/documentos/`; usar enlaces codificados para nombres con espacios. No sobrescribir una versi√≥n hist√≥rica sin documentarlo.
+5. Actualizar pendientes y fuentes. Evitar contactos personales, datos bancarios no confirmados y nombres de autoridades sin vigencia acreditada.
+6. Ejecutar npm ci, npm run build y npm run check. Revisar escritorio, m√≥vil, foco y navegaci√≥n mediante Tab/Enter/Espacio. Abrir PR.
+7. Publicar solo tras autorizaci√≥n. Recompilar para actualizar la selecci√≥n de pr√≥ximas fechas de portada.
+
+No introducir HTML sin sanitizaci√≥n ni renderizar contenido externo sin revisi√≥n. Los textos de noticias se muestran como texto plano.

@@ -1,1 +1,16 @@
-N∂úy∂úíj,∂∑úz{\jYejÀEäW¨∂∏ßÇXß{Xßöánï„Zô·+ÆäÁjgù°À"≤z-uÁ‚ùÁ
+# Fuentes y trazabilidad
+
+Fecha de revisi√≥n documental: 8 de noviembre de 2026.
+
+| Contenido | Fuente | Tratamiento |
+| --- | --- | --- |
+| Identidad y alcance | Instrucciones de implementaci√≥n Fase 1 aportadas | Paleta aprobada para proyecto, sin atribuci√≥n a manual |
+| Licenciaturas | Seis mallas proporcionadas | Descarga original; vigencia no certificada |
+| Postgrado y calendario | aviso inscripciones 2do 2026.docx | Separado como per√≠odo II-2026 |
+| Destinos de preinscripci√≥n | DEPG-001 II-2026.pdf | Ocho destinos; TIC ausente |
+| Asesor√≠a | DEPG-014 2026-2.doc | Documento original descargable |
+| Publicaciones, UDESA, redes | Inventario aprobado del prompt | Enlaces externos; estado editorial por confirmar |
+
+Portales: https://produccioncientificaluz.org/ ; https://sites.google.com/fec.luz.edu.ve/udesa/contactos ; https://wde.secretarialuz.org/ ; https://maestriaentic-luz.github.io/ ; https://www.instagram.com/fec_luz/ .
+
+No se infiere vigencia a partir de directorios hist√≥ricos. Enl@ce se identifica como referencia hist√≥rica; no se afirma actividad actual. No se duplican art√≠culos cient√≠ficos.

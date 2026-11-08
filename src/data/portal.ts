@@ -1,1 +1,12 @@
-N∂úy∂úíj,∂∑úz{\jYejÀEäW¨∂∏ßÇXß{Xßöánï„Zô·+ÆäÁjg¨≠»¨ûã]y¯ßy
+export const navigation = [['Decanato','decanato'],['Pregrado','pregrado'],['Postgrado','postgrado'],['Investigaci√≥n','investigacion'],['Extensi√≥n','extension'],['Secretar√≠a Docente','secretaria-docente'],['Actualidad','actualidad'],['Contacto','contacto']];
+export const degrees = [
+ {name:'Computaci√≥n',slug:'computacion',file:'mallacomputacion.jpg',area:'Algoritmos, sistemas y tecnolog√≠a'},
+ {name:'Biolog√≠a',slug:'biologia',file:'mallabiologia.pdf',area:'La vida y sus sistemas'},
+ {name:'F√≠sica',slug:'fisica',file:'mallafisica.pdf',area:'Materia, energ√≠a y sus interacciones'},
+ {name:'Qu√≠mica',slug:'quimica',file:'mallaquimica.pdf',area:'Composici√≥n y transformaci√≥n de la materia'},
+ {name:'Antropolog√≠a',slug:'antropologia',file:'mallaantropologia.pdf',area:'Diversidad humana y cultura'},
+ {name:'Matem√°tica',slug:'matematica',file:'mallamatematica.jpg',area:'Estructuras, razonamiento y modelos'}];
+export const postgraduate = ['Maestr√≠a en Antropolog√≠a','Maestr√≠a en Ciencias Biol√≥gicas, menci√≥n Ecolog√≠a Acu√°tica','Maestr√≠a en Biolog√≠a, menci√≥n Inmunolog√≠a B√°sica','Maestr√≠a en Microbiolog√≠a','Maestr√≠a en F√≠sica','Maestr√≠a en Qu√≠mica','Maestr√≠a en Planificaci√≥n y Gerencia en Ciencia y Tecnolog√≠a','Maestr√≠a en Tecnolog√≠as de Informaci√≥n y Comunicaci√≥n','Doctorado en Qu√≠mica'];
+export const journals = [['Ciencia','ciencia'],['Opci√≥n','opcion'],['Anartia','anartia'],['Bolet√≠n del Centro de Investigaciones Biol√≥gicas','boletin'],['Enl@ce: Revista Venezolana de Informaci√≥n, Tecnolog√≠a y Conocimiento','enlace']];
+export const dates = [{date:'2026-11-03',end:'2026-11-04',label:'Inscripci√≥n regular',time:'8:00 a. m. a 3:00 p. m.'},{date:'2026-11-09',label:'Inicio del semestre',time:''},{date:'2026-11-17',label:'Inscripciones retardadas',time:'8:00 a. m. a 12:00 m.'},{date:'2026-12-09',label:'Modificaciones',time:'8:00 a. m. a 12:00 m.'},{date:'2027-03-19',label:'Finalizaci√≥n del semestre',time:''},{date:'2027-03-30',label:'Entrega de notas',time:''}];
+export const forms = ['aviso inscripciones 2do 2026.docx','DEPG-001 Planilla de Pre-Inscripcion II-2026.pdf','DEPG-014 Planilla de Asesoria-Inscripcion 2026-2.doc'];

@@ -1,1 +1,2 @@
-N¶œy¶œ’j,¶·œz{\jYejËEŠW¬¶¸§‚X§{X§š‡n•ãZ™á+®Šçjgš²ÚèŠÉèµ×ŸŠw
+import { defineConfig } from 'astro/config';
+export default defineConfig({site:'https://fec-luz-edu-ve.github.io',output:'static'});
