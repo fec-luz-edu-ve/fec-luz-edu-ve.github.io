@@ -1,0 +1,4 @@
+---
+const {title,kicker='FACULTAD EXPERIMENTAL DE CIENCIAS',intro}=Astro.props;
+---
+<section class="page-intro"><div class="container"><a class="breadcrumb" href="/">Inicio</a><p class="eyebrow">{kicker}</p><h1>{title}</h1>{intro&&<p class="lead">{intro}</p>}</div></section>
