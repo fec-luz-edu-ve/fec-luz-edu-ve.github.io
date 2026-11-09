@@ -1,0 +1,34 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import agenda from '../../content/semana-licom-2026.json';
+const imagePath = (number: number) => `/imagenes/actualidad/semana-licom-2026/licom${number}.jpeg`;
+---
+<Layout title="Semana LICOM 2026">
+  <PageIntro title="Semana LICOM 2026" intro="Encuentro académico, tecnológico y deportivo · 4 al 6 de noviembre de 2026" />
+  <article class="section container reading">
+    <p class="eyebrow">EVENTO REALIZADO · COMPUTACIÓN</p>
+    <p>La Semana LICOM 2026 se llevó a cabo en la Facultad Experimental de Ciencias de la Universidad del Zulia, con una programación de charlas, exposición tecnológica y actividades de programación, ajedrez y tenis de mesa.</p>
+    <figure class="poster"><a href={imagePath(1)} aria-label="Abrir afiche de la Semana LICOM 2026 en tamaño completo"><img src={imagePath(1)} alt="Semana LICOM 2026 · Facultad Experimental de Ciencias" width="1280" height="720" /></a></figure>
+    <h2>Agenda del encuentro</h2>
+    <p>Programa según los afiches facilitados. Se conserva el orden de las imágenes, del 1 al 12. Las horas corresponden a Venezuela y están expresadas en formato de 24 horas.</p>
+    <p><a href="#dia-04">Miércoles 4</a> · <a href="#dia-05">Jueves 5</a> · <a href="#dia-06">Viernes 6</a></p>
+    {['04', '05', '06'].map((day) => <section id={`dia-${day}`} aria-labelledby={`titulo-${day}`}>
+      <h2 id={`titulo-${day}`}>{day === '04' ? 'Miércoles 4' : day === '05' ? 'Jueves 5' : 'Viernes 6'} de noviembre</h2>
+      {agenda.filter(item => item.day === day).map(item => <article class="agenda-item">
+        <p class="eyebrow">{item.time}</p><h3>{item.title}</h3>
+        {item.speaker && <p>{item.speaker}</p>}<p>{item.location}</p>
+        <figure class="poster"><a href={imagePath(item.image)} aria-label={`Abrir afiche: ${item.title}`}><img src={imagePath(item.image)} alt={`Afiche de ${item.title}`} width="1280" height="720" loading="lazy" /></a><figcaption>Agenda original · {day}/11/2026 · <a href={imagePath(item.image)}>Ver afiche completo</a></figcaption></figure>
+      </article>)}
+    </section>)}
+    <p class="note">Fuente: doce afiches de la Semana LICOM 2026 facilitados para esta publicación. La agenda documenta la programación del encuentro.</p>
+    <a href="/actualidad/">← Volver a Actualidad</a>
+  </article>
+</Layout>
+<style>
+  .poster { margin: 1.25rem 0 2rem; }
+  .poster img { display: block; width: 100%; height: auto; border-radius: .5rem; }
+  figcaption { margin-top: .5rem; font-size: .9rem; }
+  .agenda-item { padding-block: 1.25rem; border-top: 1px solid #d6e0eb; }
+  section[id] { scroll-margin-top: 7rem; }
+</style>

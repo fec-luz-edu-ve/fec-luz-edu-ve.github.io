@@ -50,3 +50,6 @@ No se halló un directorio rectoral oficial accesible y verificable. La portada 
 - Coordinadores: aviso inscripciones 2do 2026.docx aportado, tabla final y transcripción confirmada en la captura suministrada. Se conserva la atribución II-2026.
 - Correos proporcionados directamente por la responsable del portal el 8-11-2026 (Venezuela): Antropología mantropologia.postfec@fec.luz.edu.ve; Química mquimica.postfec@fec.luz.edu.ve; División de Estudios para Graduados post.fec@fec.luz.edu.ve; Revista CIENCIA revistaciencia@fec.luz.edu.ve; Recepción de artículos CIENCIA autoresciencia@fec.luz.edu.ve. Autorizados para difusión institucional; no se afirma prueba de entrega de correo.
 - Se mantienen los canales ya documentados de admisión TIC y Secretaría de Postgrado. No se copian los correos personales de otros coordinadores presentes en el aviso.
+
+## Semana LICOM 2026
+Doce afiches originales facilitados por la usuaria (`licom1.jpeg` a `licom12.jpeg`). Programación del 4 al 6 de noviembre de 2026. Se conserva el orden numérico y se transcriben títulos, ponentes, horas y lugares en una agenda accesible. La realización del encuentro fue confirmada por la usuaria; no se atribuyen resultados ni cifras de asistencia.

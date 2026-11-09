@@ -1,0 +1,90 @@
+[
+  {
+    "image": 2,
+    "day": "04",
+    "time": "08:00",
+    "title": "Campeonato de tenis de mesa",
+    "speaker": "",
+    "location": "Plaza Central del Edificio Grano de Oro"
+  },
+  {
+    "image": 3,
+    "day": "04",
+    "time": "08:00",
+    "title": "Campeonato de ajedrez",
+    "speaker": "",
+    "location": "Plaza Central del Edificio Grano de Oro"
+  },
+  {
+    "image": 4,
+    "day": "04",
+    "time": "10:00",
+    "title": "Minimaratón de programación",
+    "speaker": "",
+    "location": "Salón de Usos Múltiples"
+  },
+  {
+    "image": 5,
+    "day": "04",
+    "time": "08:00",
+    "title": "Exposición: Tecnología diseñada para la inclusión",
+    "speaker": "",
+    "location": "Salón de Usos Múltiples"
+  },
+  {
+    "image": 6,
+    "day": "05",
+    "time": "08:00–08:45",
+    "title": "El péndulo de la memoria: de la asignación manual al control explícito",
+    "speaker": "Prof. José Sánchez",
+    "location": "Salón de Usos Múltiples"
+  },
+  {
+    "image": 7,
+    "day": "05",
+    "time": "09:00–09:45",
+    "title": "Pensamiento crítico (porque el mundo es un lugar complejo)",
+    "speaker": "Prof. Sigerist Rodríguez",
+    "location": "Salón de Usos Múltiples"
+  },
+  {
+    "image": 8,
+    "day": "05",
+    "time": "10:00–10:45",
+    "title": "El benchmark de lectura profunda: ¿tu cerebro procesa el texto o necesita un TL;DR?",
+    "speaker": "Profa. María del Pilar López · En línea",
+    "location": "Salón de Usos Múltiples"
+  },
+  {
+    "image": 9,
+    "day": "05",
+    "time": "11:00–11:45",
+    "title": "Orquestar la máquina: de ejecutores a directores del futuro tecnológico",
+    "speaker": "Profa. María del Pilar López · En línea",
+    "location": "Salón de Usos Múltiples"
+  },
+  {
+    "image": 10,
+    "day": "06",
+    "time": "08:00–08:45",
+    "title": "Cómo desarrollar software en la era de la IA",
+    "speaker": "Prof. Sigerist Rodríguez",
+    "location": "Salón de Usos Múltiples"
+  },
+  {
+    "image": 11,
+    "day": "06",
+    "time": "10:00–10:45",
+    "title": "Geografía que salva vidas: cómo los SIG mapean la resiliencia en salud pública",
+    "speaker": "Prof. Gerardo Pirela",
+    "location": "Salón de Usos Múltiples"
+  },
+  {
+    "image": 12,
+    "day": "06",
+    "time": "11:00–11:45",
+    "title": "El cuello de botella de von Neumann mide 112 GB/s (spoiler: no era von Neumann)",
+    "speaker": "Ing. Denyam Noguera",
+    "location": "Salón de Usos Múltiples"
+  }
+]
