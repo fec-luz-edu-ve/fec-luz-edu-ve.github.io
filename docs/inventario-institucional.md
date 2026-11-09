@@ -1,5 +1,10 @@
 # Inventario institucional V1
 
+## Catálogo digital UDESA
+
+Se incorpora el catálogo V1 facilitado por la responsable del portal (2026-11-08): diez cursos, PDF original y contacto institucional. Inventario, procedencia, duraciones, categorías editoriales y pendientes en [Catálogo UDESA V1](catalogo-udesa-v1.md).
+
+
 ## Alcance
 
 Facultad Experimental de Ciencias, Universidad del Zulia. Repositorio fec-luz-edu-ve/fec-luz-edu-ve.github.io. Ocho secciones, seis licenciaturas y nueve programas de Postgrado definidos en src/data/portal.ts.

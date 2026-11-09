@@ -1,5 +1,10 @@
 # Fuentes y trazabilidad
 
+## Catálogo digital UDESA
+
+Se incorpora el catálogo V1 facilitado por la responsable del portal (2026-11-08): diez cursos, PDF original y contacto institucional. Inventario, procedencia, duraciones, categorías editoriales y pendientes en [Catálogo UDESA V1](catalogo-udesa-v1.md).
+
+
 Fecha de revisión documental: 8 de noviembre de 2026.
 
 | Contenido | Fuente | Tratamiento |
