@@ -1,4 +1,17 @@
 ---
-import Layout from '../../layouts/Layout.astro';import PageIntro from '../../components/PageIntro.astro';import {journals} from '../../data/portal';
+import Layout from '../../layouts/Layout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import {journals,institutionalContacts} from '../../data/portal';
 ---
-<Layout title="Investigación"><PageIntro title="Investigación" intro="Acceso a publicaciones y espacios de producción de conocimiento."/><section class="section container reading"><h2>Publicaciones científicas</h2><p>Consulta los portales editoriales de la Universidad del Zulia.</p><div class="journal-list">{journals.map(([name,slug])=><a href={`https://produccioncientificaluz.org/index.php/${slug}`}>{name} ↗</a>)}</div><p class="notice">Enl@ce mantiene una vinculación histórica documentada con el Departamento de Computación y LITSI. Su actividad editorial actual está pendiente de verificación.</p><h2>División de Investigación</h2><p>Información institucional pendiente de validación.</p><h2>Líneas y grupos</h2><p>El inventario se incorporará tras su revisión institucional.</p><h2>Centros, institutos y laboratorios</h2><p>Directorio pendiente de validación.</p><h2>Proyectos y eventos científicos</h2><p>No se dispone de convocatorias o proyectos actuales verificados para publicar.</p></section></Layout>
+<Layout title="Investigación">
+  <PageIntro title="Investigación" intro="Publicaciones y espacios de producción de conocimiento científico."/>
+  <section class="section container reading">
+    <h2>Publicaciones científicas</h2>
+    <p>Seis revistas integran este catálogo de consulta. Sus fichas distinguen la vinculación con FEC y con otras dependencias de LUZ; la presencia de un portal o un archivo no certifica actividad editorial actual.</p>
+    <div class="publication-catalog">{journals.map(journal=><article class="publication-card" aria-labelledby={`revista-${journal.slug}`}><h3 id={`revista-${journal.slug}`}><a href={journal.url}>{journal.name} <span aria-hidden="true">↗</span></a></h3><p class="publication-affiliation">{journal.affiliation}</p><p>{journal.description}</p><p class="publication-status"><strong>Estado de la referencia:</strong> {journal.status}</p>{journal.slug==='ciencia'&&<dl class="editorial-contacts"><dt>Revista CIENCIA</dt><dd><a href={`mailto:${institutionalContacts.ciencia}`}>{institutionalContacts.ciencia}</a></dd><dt>Recepción de artículos · CIENCIA</dt><dd><a href={`mailto:${institutionalContacts.cienciaSubmissions}`}>{institutionalContacts.cienciaSubmissions}</a></dd></dl>}<a class="source-link" href={journal.source}>Consultar fuente de la ficha ↗</a></article>)}</div>
+    <p class="note">Para consultar números, artículos o condiciones de envío, utiliza el portal de cada revista. Este sitio no reproduce sus artículos ni certifica convocatorias vigentes.</p>
+    <h2>División de Investigación</h2><p>La información de responsables y dependencias se incorporará una vez validada.</p>
+    <h2>Líneas, grupos y laboratorios</h2><p>El inventario científico se encuentra en revisión institucional.</p>
+    <h2>Proyectos y eventos científicos</h2><p>No se dispone de convocatorias o proyectos actuales verificados para publicar.</p>
+  </section>
+</Layout>

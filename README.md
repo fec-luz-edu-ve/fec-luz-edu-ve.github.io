@@ -1,5 +1,10 @@
 # Facultad Experimental de Ciencias · Universidad del Zulia
 
+## Catálogo digital UDESA
+
+Se incorpora el catálogo V1 facilitado por la responsable del portal (2026-11-08): diez cursos, PDF original y contacto institucional. Inventario, procedencia, duraciones, categorías editoriales y pendientes en [Catálogo UDESA V1](docs/catalogo-udesa-v1.md).
+
+
 Portal institucional estático FEC-LUZ, Fase 1 para revisión. Astro, TypeScript y CSS; sin bases de datos ni servicios de pago.
 
 ## Contenido
@@ -44,3 +49,9 @@ Objetivo WCAG 2.2 AA: HTML semántico, navegación con teclado, salto al conteni
 Las fuentes primarias son los recursos institucionales aportados; consulte [fuentes](docs/fuentes.md). No publicar noticias, autoridades, contactos personales ni vigencias sin verificación. La paleta fue aprobada para este proyecto; no se atribuye a un manual institucional. El Departamento de Computación no forma parte de esta intervención.
 
 Consulte [pendientes](docs/pendientes-validacion.md) y [guía de contenidos](docs/guia-actualizacion-contenidos.md).
+
+## Actualización editorial en revisión (PR #2)
+
+Decanato incluye una estructura de ocho apartados y una ficha de autoridad documental, sin certificar nombramientos vigentes. Investigación presenta seis revistas con adscripciones diferenciadas y advertencias de continuidad editorial. Normativa es transversal y conserva las ocho entradas del menú.
+
+Fuentes, decisiones y validaciones: [actualización de Decanato y revistas](docs/actualizacion-decanato-revistas-2026.md). Esta actualización se mantiene en `feat/decanato-normativa-revistas-2026`; no autoriza merge, despliegue ni cambios DNS.

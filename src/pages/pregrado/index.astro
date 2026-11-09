@@ -1,4 +1,4 @@
 ---
 import Layout from '../../layouts/Layout.astro';import PageIntro from '../../components/PageIntro.astro';import {degrees} from '../../data/portal';
 ---
-<Layout title="Pregrado"><PageIntro title="Pregrado" intro="Explora las seis licenciaturas y consulta los documentos curriculares disponibles."/><section class="section container"><div class="degree-grid">{degrees.map(d=><a class="degree" href={`/pregrado/${d.slug}/`}><h2>{d.name}</h2><p>Licenciatura</p><span>Consultar malla curricular →</span></a>)}</div><p class="note">Los documentos se conservan en su formato original. Su publicación no certifica su vigencia curricular.</p></section></Layout>
+<Layout title="Pregrado"><PageIntro title="Pregrado" intro="Explora las seis licenciaturas y consulta los documentos curriculares disponibles."/><section class="section container"><div class="degree-grid">{degrees.map(d=><a class="degree" href={`/pregrado/${d.slug}/`}><h2>{d.name}</h2><p>Licenciatura</p><span>Consultar malla curricular →</span></a>)}</div></section></Layout>
