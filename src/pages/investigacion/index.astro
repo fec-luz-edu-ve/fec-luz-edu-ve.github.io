@@ -1,4 +1,18 @@
 ---
-import Layout from '../../layouts/Layout.astro';import PageIntro from '../../components/PageIntro.astro';import {journals} from '../../data/portal';
+import Layout from '../../layouts/Layout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import {journals} from '../../data/portal';
 ---
-<Layout title="Investigación"><PageIntro title="Investigación" intro="Acceso a publicaciones y espacios de producción de conocimiento."/><section class="section container reading"><h2>Publicaciones científicas</h2><p>Consulta los portales editoriales de la Universidad del Zulia.</p><div class="journal-list">{journals.map(([name,slug])=><a href={`https://produccioncientificaluz.org/index.php/${slug}`}>{name} ↗</a>)}</div><p class="notice">Enl@ce mantiene una vinculación histórica documentada con el Departamento de Computación y LITSI. Su actividad editorial actual está pendiente de verificación.</p><h2>División de Investigación</h2><p>Información institucional pendiente de validación.</p><h2>Líneas y grupos</h2><p>El inventario se incorporará tras su revisión institucional.</p><h2>Centros, institutos y laboratorios</h2><p>Directorio pendiente de validación.</p><h2>Proyectos y eventos científicos</h2><p>No se dispone de convocatorias o proyectos actuales verificados para publicar.</p></section></Layout>
+<Layout title="Investigación">
+  <PageIntro title="Investigación" intro="Publicaciones y espacios de producción de conocimiento científico de la Facultad."/>
+  <section class="section container reading">
+    <h2>Publicaciones científicas</h2>
+    <p>Catálogo inicial de revistas asociadas a la actividad investigadora de la Facultad y de la Universidad del Zulia. Cada enlace conduce al portal editorial correspondiente; su actividad actual y adscripción particular deben verificarse.</p>
+    <div class="journal-list">{journals.map(([name,slug])=><a href={`https://produccioncientificaluz.org/index.php/${slug}`}>{name} ↗</a>)}</div>
+    <p><strong>Divulgaciones Matemáticas</strong> es una revista arbitrada adscrita al Departamento de Matemática de FEC-LUZ, creada en 1993. Su portal registra la publicación, el 10 de junio de 2024, del volumen conjunto 2022–2023; esa fecha no acredita por sí sola que sea el número más reciente.</p>
+    <p class="notice">Enl@ce mantiene una vinculación histórica documentada con el Departamento de Computación y LITSI. Su actividad editorial actual está pendiente de verificación.</p>
+    <h2>División de Investigación</h2><p>La información de responsables y dependencias se incorporará una vez validada.</p>
+    <h2>Líneas, grupos y laboratorios</h2><p>El inventario científico se encuentra en revisión institucional.</p>
+    <h2>Proyectos y eventos científicos</h2><p>No se publicarán convocatorias o proyectos actuales sin fuentes verificables.</p>
+  </section>
+</Layout>
