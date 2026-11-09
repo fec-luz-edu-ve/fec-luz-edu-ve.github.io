@@ -6,7 +6,23 @@ export const degrees = [
  {name:'Química',slug:'quimica',file:'mallaquimica.pdf',area:'Composición y transformación de la materia'},
  {name:'Antropología',slug:'antropologia',file:'mallaantropologia.pdf',area:'Diversidad humana y cultura'},
  {name:'Matemática',slug:'matematica',file:'mallamatematica.jpg',area:'Estructuras, razonamiento y modelos'}];
-export const postgraduate = ['Maestría en Antropología','Maestría en Ciencias Biológicas, mención Ecología Acuática','Maestría en Biología, mención Inmunología Básica','Maestría en Microbiología','Maestría en Física','Maestría en Química','Maestría en Planificación y Gerencia en Ciencia y Tecnología','Maestría en Tecnologías de Información y Comunicación','Doctorado en Química'];
+export const institutionalContacts = {
+ postgraduateDivision:'post.fec@fec.luz.edu.ve',
+ postgraduateSecretary:'secpost.ciens@fec.luz.edu.ve',
+ ciencia:'revistaciencia@fec.luz.edu.ve',
+ cienciaSubmissions:'autoresciencia@fec.luz.edu.ve'
+};
+export const postgraduate = [
+ {name:'Maestría en Antropología',coordinator:'Dr. Carlos Valbuena',email:'mantropologia.postfec@fec.luz.edu.ve'},
+ {name:'Maestría en Ciencias Biológicas, mención Ecología Acuática',coordinator:'Dr. José Elí Rincón',email:null},
+ {name:'Maestría en Biología, mención Inmunología Básica',coordinator:'MSc. Jorge Guiñez',email:null},
+ {name:'Maestría en Microbiología',coordinator:'Dra. Lilibeth Cabrera',email:null},
+ {name:'Maestría en Física',coordinator:'Dr. José Franceschini',email:null},
+ {name:'Maestría en Química',coordinator:'Dr. Gerson Chávez',email:'mquimica.postfec@fec.luz.edu.ve'},
+ {name:'Maestría en Planificación y Gerencia en Ciencia y Tecnología',coordinator:'Dr. Adán Oberto',email:null},
+ {name:'Maestría en Tecnologías de Información y Comunicación',coordinator:'Dr. Alfredo Acurero',email:'mticluz.admision@gmail.com'},
+ {name:'Doctorado en Química',coordinator:'Dra. Patricia Rodríguez',email:null}
+];
 export const journals = [
  {name:'Ciencia',slug:'ciencia',url:'https://www.produccioncientificaluz.org/index.php/ciencia',affiliation:'Facultad Experimental de Ciencias · Universidad del Zulia.',description:'Investigación en biología, computación, matemática, física y química.',status:'Portal editorial identificado; continuidad de publicación pendiente de confirmación.',source:'https://www.produccioncientificaluz.org/index.php/ciencia/about'},
  {name:'Opción',slug:'opcion',url:'https://produccioncientificaluz.org/index.php/opcion',affiliation:'Departamento de Ciencias Humanas y División de Investigación · FEC-LUZ.',description:'Publicación de ciencias sociales y humanas.',status:'Adscripción documentada por la revista; continuidad editorial actual por confirmar.',source:'https://produccioncientificaluz.org/index.php/opcion/about'},

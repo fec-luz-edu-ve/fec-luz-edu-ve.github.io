@@ -39,3 +39,9 @@ Se distingue el contenido recuperado por el buscador del acceso directo al servi
 - Divulgaciones Matemáticas: https://www.produccioncientifica.luz.edu.ve/index.php/divulgaciones/Definicion-Politica-Editorial — arbitrada, adscrita al Departamento de Matemáticas FEC, creada en 1993 y solo digital desde 2016. https://www.produccioncientificaluz.org/index.php/divulgaciones/Historia-Revista complementa esa historia. https://www.produccioncientificaluz.org/index.php/divulgaciones registra volumen 23–24, 2022–2023, publicado 2024-06-10. Hallazgos del índice editorial; apertura directa restringida o con timeout. No se afirma que sea el último número a noviembre de 2026.
 
 No se halló un directorio rectoral oficial accesible y verificable. La portada https://www.luz.edu.ve/ no pudo abrirse mediante el servicio de consulta. Se omite enlace de autoridades rectorales hasta confirmar la URL; no se reemplaza por directorios de revistas.
+
+## Coordinaciones y contactos de Postgrado y CIENCIA
+
+- Coordinadores: aviso inscripciones 2do 2026.docx aportado, tabla final y transcripción confirmada en la captura suministrada. Se conserva la atribución II-2026.
+- Correos proporcionados directamente por la responsable del portal el 8-11-2026 (Venezuela): Antropología mantropologia.postfec@fec.luz.edu.ve; Química mquimica.postfec@fec.luz.edu.ve; División de Estudios para Graduados post.fec@fec.luz.edu.ve; Revista CIENCIA revistaciencia@fec.luz.edu.ve; Recepción de artículos CIENCIA autoresciencia@fec.luz.edu.ve. Autorizados para difusión institucional; no se afirma prueba de entrega de correo.
+- Se mantienen los canales ya documentados de admisión TIC y Secretaría de Postgrado. No se copian los correos personales de otros coordinadores presentes en el aviso.

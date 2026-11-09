@@ -22,3 +22,7 @@ Los archivos conservan los contenidos originales. No se recibieron instructivo S
 - Seis revistas con metadatos de adscripción, fuente y estado de referencia en src/data/portal.ts; la portada reutiliza el mismo catálogo. Boletín CIB se identifica con Humanidades y Educación.
 - Normativa transversal accesible desde Decanato, Secretaría Docente y pie, con ocho entradas principales conservadas.
 - No se crean directorios de representantes ni fotografías o períodos ficticios. Departamentos se presentan como áreas preliminares; consejos departamentales se documentarán en sus propios portales.
+
+## Directorio de Postgrado
+
+Nueve coordinadores documentados según aviso II-2026. Correos de programa disponibles: Antropología, Química y admisión TIC. División de Estudios para Graduados y Secretaría de Postgrado se distinguen como canales diferentes. CIENCIA dispone de contacto editorial y canal de recepción de artículos. Datos compartidos en src/data/portal.ts y reutilizados en Postgrado, Contacto, Investigación y Secretaría Docente.

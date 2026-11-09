@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import PageIntro from '../../components/PageIntro.astro';
 import Calendar from '../../components/Calendar.astro';
+import {institutionalContacts} from '../../data/portal';
 ---
 <Layout title="Secretaría Docente">
   <PageIntro title="Secretaría Docente" intro="Calendario, trámites, normativa y orientación académica."/>
@@ -14,6 +15,6 @@ import Calendar from '../../components/Calendar.astro';
     <p>El Reglamento de Evaluación y Rendimiento Estudiantil (RERE) de LUZ regula aspectos de evaluación y rendimiento académico. La versión documental localizada requiere confirmación de vigencia antes de emplearse como instrucción administrativa.</p>
     <p><a href="/normativa/">Consultar Normativa y Reglamentos →</a></p>
     <h2>Avisos importantes</h2><p>Confirma fechas y procesos en los canales oficiales de Secretaría LUZ.</p>
-    <h2>Atención y contacto</h2><p>El correo de Pregrado se publicará cuando se confirme su operatividad.</p><p>Postgrado: <a href="mailto:secpost.ciens@fec.luz.edu.ve">secpost.ciens@fec.luz.edu.ve</a></p>
+    <h2>Atención y contacto</h2><p>El correo de Pregrado se publicará cuando se confirme su operatividad.</p><p>División de Estudios para Graduados: <a href={`mailto:${institutionalContacts.postgraduateDivision}`}>{institutionalContacts.postgraduateDivision}</a></p><p>Secretaría de Postgrado: <a href={`mailto:${institutionalContacts.postgraduateSecretary}`}>{institutionalContacts.postgraduateSecretary}</a></p>
   </section>
 </Layout>

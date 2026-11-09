@@ -39,3 +39,9 @@ Ver docs/fuentes.md y docs/normativa-inventario.md para URLs, procedencia y lím
 - GitHub Actions: consultar el resultado asociado al commit final del PR.
 
 No fusionar, no desplegar, no modificar DNS.
+
+## Ampliación: Postgrado y contactos institucionales
+
+Se incorpora el directorio de nueve coordinadores según aviso II-2026 con tabla semántica, encabezados de fila/columna y contenedor desplazable por teclado en móvil. Correos faltantes aparecen como «Por incorporar». Se añaden los cinco correos facilitados por la responsable del portal; se conservan admisión TIC y Secretaría de Postgrado como canales documentados distintos. CIENCIA separa contacto editorial de recepción de artículos. Contacto y Secretaría Docente reutilizan los datos compartidos. No se publican otros correos personales del aviso. Continúa dentro del PR #2, sin merge ni despliegue.
+
+Validación de la ampliación: build de 17 páginas; check con 0 errores, advertencias o sugerencias; 484 referencias locales. HTML generado: 9 filas de coordinación, 6 correos de programa pendientes, 5 nuevos enlaces mailto comprobados en Contacto y canales de CIENCIA diferenciados. Revisión visual interactiva sigue pendiente por la limitación de preview ya documentada.
