@@ -13,7 +13,7 @@
 - Confirmar actividad actual de Enl@ce y las direcciones particulares de los portales editoriales.
 - Confirmar disponibilidad del portal de Computación antes de sustituir el enlace a su organización.
 - Incorporar noticias reales con fuente y fecha verificables; no hay noticias ficticias.
-- Revisar el patrón cuadriculado del escudo suministrado: no se modifica el emblema original.
+- Patrón cuadriculado exterior del escudo retirado en versión derivada transparente mediante recorte técnico autorizado; original conservado. Revisar presentación de cabecera en navegador cuando haya preview disponible.
 - PR #2: no fusionar ni desplegar hasta revisión final. La Fase 1 ya está publicada; esta actualización permanece en rama. No configurar www.fec.luz.edu.ve.
 
 ## Pendientes específicos del PR #2

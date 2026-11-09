@@ -26,3 +26,7 @@ Los archivos conservan los contenidos originales. No se recibieron instructivo S
 ## Directorio de Postgrado
 
 Nueve coordinadores documentados según aviso II-2026. Correos de programa disponibles: Antropología, Química y admisión TIC. División de Estudios para Graduados y Secretaría de Postgrado se distinguen como canales diferentes. CIENCIA dispone de contacto editorial y canal de recepción de artículos. Datos compartidos en src/data/portal.ts y reutilizados en Postgrado, Contacto, Investigación y Secretaría Docente.
+
+## Emblemas web transparentes
+
+`public/logos/luz-transparente.png` y `fec-transparente.png`: derivados técnicos de los originales, sin regeneración. Solo máscara exterior y ajuste de lienzo LUZ, conservando blancos interiores, colores y dibujo. Cabecera y favicon referencian estas versiones; los originales se conservan.
