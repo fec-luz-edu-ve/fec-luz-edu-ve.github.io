@@ -1,3 +1,7 @@
+## Catálogo digital UDESA
+
+Se incorpora el catálogo V1 facilitado por la responsable del portal (2026-11-08): diez cursos, PDF original y contacto institucional. Inventario, procedencia, duraciones, categorías editoriales y pendientes en [Catálogo UDESA V1](catalogo-udesa-v1.md).
+
 # Pendientes institucionales
 
 - Confirmar autoridades y condición de nombramiento del Dr. José Ortega antes de publicarlo.
