@@ -1,6 +1,6 @@
 # Pendientes institucionales
 
-- Confirmar autoridades y condición de nombramiento del Dr. José Ortega antes de publicarlo.
+- Confirmar resolución, denominación (decano / encargado / interino), continuidad y período del Dr. José Ortega. Su ficha se presenta exclusivamente como referencia documental de 2025–2026, sin certificar vigencia.
 - Validar historia, misión, visión, dependencias, reglamentos y organización académica.
 - Confirmar versiones curriculares de las seis mallas, especialmente Matemática (recurso con referencia 02-1995) y Antropología.
 - Maestría TIC figura en el aviso II-2026, pero no entre destinos de DEPG-001. La extracción de DEPG-001 también muestra I-2025 e II-2026: revisar rótulo del formulario.
@@ -14,4 +14,17 @@
 - Confirmar disponibilidad del portal de Computación antes de sustituir el enlace a su organización.
 - Incorporar noticias reales con fuente y fecha verificables; no hay noticias ficticias.
 - Revisar el patrón cuadriculado del escudo suministrado: no se modifica el emblema original.
-- Autorizar merge y activación de Pages en revisión posterior. No configurar www.fec.luz.edu.ve.
+- PR #2: no fusionar ni desplegar hasta revisión final. La Fase 1 ya está publicada; esta actualización permanece en rama. No configurar www.fec.luz.edu.ve.
+
+## Pendientes específicos del PR #2
+
+- Obtener acta o resolución de instalación de FEC (9-7-1973); la fecha se conserva atribuida a reseña conmemorativa de 2017.
+- Documentar la estructura propia de FEC: composición y actos del Consejo de Facultad; naturaleza, existencia formal, reglamento y funcionamiento actual del Consejo Académico Docente citado históricamente por Secretaría.
+- Confirmar nombres oficiales de departamentos. Las seis áreas son relación preliminar, no directorio definitivo. Resolver uso Matemática/Matemáticas y adscripción formal de Antropología a Ciencias Humanas.
+- Validar enlaces de páginas departamentales antes de incorporarlos. Computación enlaza solo a su organización existente; no se modificó ese repositorio.
+- Verificar URL del portal oficial de autoridades rectorales. No se halló una accesible en esta revisión; no se añadió enlace sin comprobar ni se copiaron nombres rectorales.
+- Confirmar continuidad editorial de las seis revistas y disponibilidad directa de portales con restricciones o timeout. El volumen 2022–2023 de Divulgaciones, publicado en junio de 2024, no se describe como última edición.
+- Boletín del Centro de Investigaciones Biológicas: su portal lo sitúa en Humanidades y Educación; no tratar como revista FEC. Conservar como recurso LUZ.
+- Obtener versiones oficiales de RERE, departamentos/cátedras y Emblemas, con fechas, resoluciones y modificaciones. La copia Scribd queda solo en inventario interno de trabajo.
+
+- QA del PR #2: revisar visualmente Decanato, Investigación y Normativa en móvil/escritorio y con teclado cuando la infraestructura de preview esté disponible. Falló el arranque; las comprobaciones estáticas no sustituyen esa revisión.

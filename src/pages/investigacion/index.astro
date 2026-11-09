@@ -4,15 +4,14 @@ import PageIntro from '../../components/PageIntro.astro';
 import {journals} from '../../data/portal';
 ---
 <Layout title="Investigación">
-  <PageIntro title="Investigación" intro="Publicaciones y espacios de producción de conocimiento científico de la Facultad."/>
+  <PageIntro title="Investigación" intro="Publicaciones y espacios de producción de conocimiento científico."/>
   <section class="section container reading">
     <h2>Publicaciones científicas</h2>
-    <p>Catálogo inicial de revistas asociadas a la actividad investigadora de la Facultad y de la Universidad del Zulia. Cada enlace conduce al portal editorial correspondiente; su actividad actual y adscripción particular deben verificarse.</p>
-    <div class="journal-list">{journals.map(([name,slug])=><a href={`https://produccioncientificaluz.org/index.php/${slug}`}>{name} ↗</a>)}</div>
-    <p><strong>Divulgaciones Matemáticas</strong> es una revista arbitrada adscrita al Departamento de Matemática de FEC-LUZ, creada en 1993. Su portal registra la publicación, el 10 de junio de 2024, del volumen conjunto 2022–2023; esa fecha no acredita por sí sola que sea el número más reciente.</p>
-    <p class="notice">Enl@ce mantiene una vinculación histórica documentada con el Departamento de Computación y LITSI. Su actividad editorial actual está pendiente de verificación.</p>
+    <p>Seis revistas integran este catálogo de consulta. Sus fichas distinguen la vinculación con FEC y con otras dependencias de LUZ; la presencia de un portal o un archivo no certifica actividad editorial actual.</p>
+    <div class="publication-catalog">{journals.map(journal=><article class="publication-card" aria-labelledby={`revista-${journal.slug}`}><h3 id={`revista-${journal.slug}`}><a href={journal.url}>{journal.name} <span aria-hidden="true">↗</span></a></h3><p class="publication-affiliation">{journal.affiliation}</p><p>{journal.description}</p><p class="publication-status"><strong>Estado de la referencia:</strong> {journal.status}</p><a class="source-link" href={journal.source}>Consultar fuente de la ficha ↗</a></article>)}</div>
+    <p class="note">Para consultar números, artículos o condiciones de envío, utiliza el portal de cada revista. Este sitio no reproduce sus artículos ni certifica convocatorias vigentes.</p>
     <h2>División de Investigación</h2><p>La información de responsables y dependencias se incorporará una vez validada.</p>
     <h2>Líneas, grupos y laboratorios</h2><p>El inventario científico se encuentra en revisión institucional.</p>
-    <h2>Proyectos y eventos científicos</h2><p>No se publicarán convocatorias o proyectos actuales sin fuentes verificables.</p>
+    <h2>Proyectos y eventos científicos</h2><p>No se dispone de convocatorias o proyectos actuales verificados para publicar.</p>
   </section>
 </Layout>

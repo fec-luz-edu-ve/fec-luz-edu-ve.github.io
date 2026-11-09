@@ -15,3 +15,10 @@ Facultad Experimental de Ciencias, Universidad del Zulia. Repositorio fec-luz-ed
 - DEPG-014 asesoría e inscripción 2026-2 DOC.
 
 Los archivos conservan los contenidos originales. No se recibieron instructivo SD-DEPG-001, calendario de Pregrado, misión, visión, organigrama vigente ni resoluciones de autoridades.
+
+## Actualización en PR #2
+
+- Decanato reorganizado en ocho bloques: presentación, historia, propósito editorial, autoridades documentales, órganos colegiados, áreas departamentales, dependencias y normativa.
+- Seis revistas con metadatos de adscripción, fuente y estado de referencia en src/data/portal.ts; la portada reutiliza el mismo catálogo. Boletín CIB se identifica con Humanidades y Educación.
+- Normativa transversal accesible desde Decanato, Secretaría Docente y pie, con ocho entradas principales conservadas.
+- No se crean directorios de representantes ni fotografías o períodos ficticios. Departamentos se presentan como áreas preliminares; consejos departamentales se documentarán en sus propios portales.

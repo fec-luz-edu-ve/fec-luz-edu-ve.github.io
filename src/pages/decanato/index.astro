@@ -1,25 +1,52 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import PageIntro from '../../components/PageIntro.astro';
+import {departments} from '../../data/portal';
+const sections = [['presentacion','Presentación'],['historia','Historia'],['proposito','Propósito'],['autoridades','Autoridades'],['consejo','Órganos colegiados'],['departamentos','Departamentos'],['dependencias','Dependencias'],['normativa','Normativa']];
 ---
 <Layout title="Decanato">
-  <PageIntro title="Decanato" intro="Historia, organización académica, autoridades y marco institucional de la Facultad Experimental de Ciencias."/>
-  <section class="section container reading">
-    <h2>Presentación de la Facultad</h2>
-    <p>La Facultad Experimental de Ciencias (FEC) de la Universidad del Zulia desarrolla actividades de docencia, investigación y extensión en las ciencias naturales, exactas, computacionales y humanas. Ofrece formación de pregrado y postgrado, y promueve la producción y divulgación del conocimiento.</p>
-    <h2>Historia institucional</h2>
-    <p>La Facultad Experimental de Ciencias fue instalada formalmente el <strong>9 de julio de 1973</strong> como parte del fortalecimiento de la enseñanza e investigación científica en la Universidad del Zulia. En sus inicios desarrolló un modelo académico organizado en departamentos, con un enfoque interdisciplinario.</p>
-    <p>Su trayectoria incluye la consolidación de programas, laboratorios, iniciativas de investigación y formación avanzada. La historia institucional se ampliará con documentos de archivo y fuentes universitarias contrastadas.</p>
-    <h2>Organización académica</h2>
-    <p>La Facultad comprende las licenciaturas en Computación, Biología, Física, Química, Antropología y Matemática. Las licenciaturas no deben confundirse con la denominación de sus departamentos: Antropología se vincula al área de Ciencias Humanas.</p>
-    <a href="/pregrado/">Consultar las seis licenciaturas →</a>
-    <h2>Propósito institucional</h2>
-    <p>La actividad académica de la FEC se orienta a la formación científica, la investigación, el pensamiento crítico y la vinculación del conocimiento con la sociedad. Esta síntesis editorial no reemplaza las declaraciones oficiales de misión y visión, todavía pendientes de validación documental.</p>
-    <h2>Autoridades</h2>
-    <p>Referencias institucionales y editoriales de 2025–2026 identifican al <strong>Dr. José Ortega</strong> como decano de la Facultad; algunas lo mencionan como decano encargado. La continuidad del nombramiento y su denominación formal requieren confirmación mediante resolución institucional.</p>
-    <h2>Dependencias y reglamentos</h2>
-    <p>El Decanato articula actividades académicas y administrativas con departamentos y dependencias como Secretaría Docente, Estudios para Graduados, Investigación y Extensión. Esta relación informativa no constituye un organigrama oficial.</p>
-    <p><a href="/normativa/">Consultar Normativa y Reglamentos →</a></p>
-    <p><small>Fuentes y criterios de validación: <a href="https://github.com/fec-luz-edu-ve/fec-luz-edu-ve.github.io/blob/main/docs/fuentes.md">documentación del portal</a>. El directorio formal de autoridades está pendiente de confirmación.</small></p>
-  </section>
+  <PageIntro title="Decanato" intro="Historia, organización académica y referencias institucionales de la Facultad Experimental de Ciencias."/>
+  <div class="container institutional-layout section">
+    <nav class="section-index" aria-label="En esta página"><p class="eyebrow">EN ESTA PÁGINA</p><ul>{sections.map(([id,label])=><li><a href={`#${id}`}>{label}</a></li>)}</ul></nav>
+    <div class="institutional-content">
+      <section id="presentacion" aria-labelledby="presentacion-title"><h2 id="presentacion-title">Presentación institucional</h2>
+        <p>La Facultad Experimental de Ciencias (FEC) de la Universidad del Zulia reúne formación académica, investigación y extensión en ciencias naturales, exactas, computacionales y humanas.</p>
+        <h3>Organización académica</h3><p>Su oferta de Pregrado comprende seis licenciaturas: Computación, Biología, Física, Química, Antropología y Matemática. Las denominaciones de los programas y las de sus departamentos no son necesariamente iguales.</p><a href="/pregrado/">Consultar las seis licenciaturas →</a>
+      </section>
+      <section id="historia" aria-labelledby="historia-title"><p class="eyebrow">TRAYECTORIA INSTITUCIONAL</p><h2 id="historia-title">Historia de la Facultad</h2>
+        <p>La instalación formal de la Facultad se sitúa el <strong>9 de julio de 1973</strong>. La reseña conmemorativa de 2017 firmada por Judith Aular recoge este hito, asociado al desarrollo de la formación y la investigación científica en LUZ.</p>
+        <p>El carácter experimental de la Facultad se ha relacionado con un modelo académico departamental e interdisciplinario. La reseña se ampliará con documentos del archivo universitario.</p>
+        <p class="note"><a href="https://media.diarioversionfinal.com/wp-content/uploads/2017/07/d3152.pdf">Consultar la reseña conmemorativa de 2017 (PDF, página 13) ↗</a>. El acta o resolución de instalación continúa pendiente de incorporación.</p>
+      </section>
+      <section id="proposito" aria-labelledby="proposito-title"><h2 id="proposito-title">Propósito institucional</h2>
+        <p>Formación científica, investigación, pensamiento crítico y vinculación del conocimiento con la sociedad orientan esta presentación de la actividad de la Facultad.</p>
+        <p class="note">Esta es una síntesis editorial. Las declaraciones oficiales de misión y visión se incorporarán cuando se valide su documentación.</p>
+      </section>
+      <section id="autoridades" aria-labelledby="autoridades-title"><h2 id="autoridades-title">Autoridades de la Facultad</h2>
+        <article class="authority-card" aria-labelledby="dean-name"><p class="eyebrow">REFERENCIA DOCUMENTAL · 2025–2026</p><h3 id="dean-name">Dr. José Ortega</h3><p class="authority-role">Decano de la Facultad Experimental de Ciencias, según las fuentes consultadas.</p>
+          <p>El boletín de Secretaría LUZ de septiembre de 2025 lo identifica como decano. Fuentes editoriales también emplean la denominación <em>Decano encargado</em>.</p>
+          <p class="validation-note"><strong>Nombramiento pendiente de confirmación:</strong> estas referencias no acreditan la continuidad del cargo ni un período de gestión vigente.</p>
+          <div class="source-links"><a href="https://actualidad.secretarialuz.org/descarga/Boletin_Actualidad_no_6.pdf">Boletín de Secretaría LUZ · septiembre de 2025 ↗</a><a href="https://produccioncientifica.luz.edu.ve/index.php/opcion/about/editorialTeam">Referencia editorial de Opción ↗</a></div>
+        </article>
+        <p class="note">La ficha se completará con la denominación formal, el período y una fotografía institucional autorizada cuando estén disponibles. Los restantes cargos y responsables se incorporarán tras su validación.</p>
+      </section>
+      <section id="consejo" aria-labelledby="consejo-title"><h2 id="consejo-title">Consejo de Facultad y órganos colegiados</h2>
+        <p>La Ley de Universidades contempla al Consejo de Facultad como uno de los órganos de gobierno de las facultades (artículo 50). La estructura particular de FEC debe contrastarse con sus reglamentos y actos institucionales.</p>
+        <p>No se publica una composición del Consejo ni un listado de representantes sin documentación oficial de la Facultad.</p>
+        <p><a href="https://www.viceacademico.uc.edu.ve/leyes/universidades">Consultar el texto de referencia de la Ley de Universidades ↗</a> · <a href="/normativa/">Normativa universitaria →</a></p>
+        <aside class="notice"><h3>Denominaciones por esclarecer</h3><p>Un material histórico de Secretaría LUZ menciona un <em>Consejo Académico Docente</em> en procesos de FEC. Esta referencia no permite equipararlo al Consejo de Facultad ni establecer su naturaleza, composición o funcionamiento actual. Su validación está pendiente.</p><a href="https://wde.secretarialuz.org/wde/inscripcion/fac_ciencias/biolo02.html">Consultar la referencia histórica de Secretaría LUZ ↗</a></aside>
+      </section>
+      <section id="departamentos" aria-labelledby="departamentos-title"><h2 id="departamentos-title">Departamentos Académicos</h2>
+        <p>La siguiente relación presenta las seis áreas académicas de referencia. Es un inventario preliminar; las denominaciones oficiales y adscripciones deben confirmarse antes de convertirlo en un directorio definitivo.</p>
+        <div class="department-grid">{departments.map(d=><article class="department-card"><h3>{d.area}</h3><p>{d.area==='Ciencias Humanas'?'Área vinculada a la Licenciatura en Antropología.':`Referencia académica: Licenciatura en ${d.degree}.`}</p><a href={`/pregrado/${d.slug}/`}>Consultar licenciatura →</a>{d.reference&&<a href={d.reference}>Organización de Computación ↗</a>}</article>)}</div>
+        <p class="note">Las fuentes editoriales emplean tanto “Matemática” como “Matemáticas”. Opción documenta el Departamento de Ciencias Humanas. Las páginas departamentales se enlazarán cuando se confirme su disponibilidad.</p>
+        <h3>Consejos departamentales</h3><p>La composición y documentación de cada consejo se mantendrán principalmente en su página departamental. La Facultad ofrecerá los enlaces correspondientes, evitando duplicar directorios de personas.</p>
+      </section>
+      <section id="dependencias" aria-labelledby="dependencias-title"><h2 id="dependencias-title">Dependencias</h2>
+        <p>Accede a la información académica y administrativa disponible en el portal. Estos accesos no constituyen un organigrama oficial.</p>
+        <ul class="document-list"><li><a href="/secretaria-docente/">Secretaría Docente</a></li><li><a href="/postgrado/">Estudios para Graduados</a></li><li><a href="/investigacion/">Investigación</a></li><li><a href="/extension/">Extensión</a></li></ul>
+      </section>
+      <section id="normativa" aria-labelledby="normativa-title"><h2 id="normativa-title">Normativa y Reglamentos</h2><p>Consulta las referencias legales y universitarias, sus fuentes y las advertencias de vigencia documental.</p><a class="button" href="/normativa/">Consultar Normativa y Reglamentos →</a></section>
+    </div>
+  </div>
 </Layout>
